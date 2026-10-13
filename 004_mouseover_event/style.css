@@ -37,3 +37,11 @@ body{
 #demo > p {
     font-size: 2rem;
 }
+
+#demo > img{
+    max-height: 80%;
+    max-width: 80%;
+    border-radius: 0.75rem;
+    border: 1px solid black;
+    object-fit: contain;
+}
